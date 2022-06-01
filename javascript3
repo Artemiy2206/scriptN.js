@@ -1,0 +1,7 @@
+let calculateSalary = function (whiteSalary) {
+  if (whiteSalary < 100000) { return whiteSalary * (1 - 0.35);
+  } else { return whiteSalary * (1 - 0.45); }
+};
+
+console.log(calculateSalary(50000));
+console.log(calculateSalary(120000));
